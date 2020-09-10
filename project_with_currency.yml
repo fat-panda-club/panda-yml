@@ -1,47 +1,55 @@
 # This section should be mostly links to the various project resources
 meta:
   # Full project name, this must be the registered name with panda-bot platform (can not change!)
-  name: Fat Panda Club
+  name: MoneyByte
   # Hot link to icon of project preferrably around 100x100px PNG format, not imgur or any service using redirects
-  icon: https://pandabot.fatpanda.club/img/icon.png
+  icon: https://assets.coingecko.com/coins/images/9588/large/icon.png?1569276057
   # Project website
-  website: https://pandabot.fatpanda.club
+  website: https://www.moneybyte.org/
   # Discord invite
-  discord: https://discord.gg/Hs57Jg4
+  discord: https://discord.gg/wdCffQa
   # Bitcointalk topics
-  bitcointalk: https://bitcointalk.org/index.php?topic=5103411
+  bitcointalk: https://bitcointalk.org/index.php?topic=5183735.0
   # Twitter account
-  twitter: https://twitter.com/fatpandabot
+  twitter: https://twitter.com/MoneyByteTweets
   # Facebook account
-  facebook: https://facebook.com
+  facebook: https://www.facebook.com/MoneyByteOfficial/
   # Some other social media account
-  social: https://some.other.social/media/account
+  telegram: https://t.me/MoneyByte
   ## Please limit each of the lists to 3-4 maximum, Discord messages can only hold so many characters!
+  youtube: https://www.youtube.com/channel/UCOHTRJ1ADR-HoxR__3MLSKg
   # List of Blockchain explorer
   explorer: 
-    - https://explorer.fatpanda.club
-    - https://explorer2.fatpanda.club
+    - https://explorer.moneybyte.org/
+    - https://openchains.info/coin/moneybyte/blocks
   # List of exchanges
   exchange:
-    - https://crex24.com/exchange/BOO-BTC
+    - https://graviex.net/markets/monbtc
+    - https://www.southxchange.com/Market/Book/MON/BTC
+    - https://www.unnamed.exchange/Exchange?market=MON_BTC
+    - https://asymetrex.com/markets/monbtc
+    - https://nortexchange.com/exchange/?market=MON_BTC
+    - https://ihostmn.com/buysell.php?market=MON2BTC
+    - https://exchange.zeonhexalgo.fun/market/63
+    
   # List of pools
   pool:
-    - https://pools.fatpanda.club
-  some_other_info: short info
+    - https://investing.moneybyte.org/investment-mining/mining4moneybyte/
+  rewards: POS and Masternodes 
   # You can put some project info in, however best to keep it relatively short
 blockchain:
   # Chain info, standalone/ethereum/tron
   chain: standalone
   # Token starndard if applicable
-  standard: ERC20
+  standard: N/A
   # Codebase of blockchain 
-  codebase: pivx3.1
+  codebase: BTC
   # Algorithm of blockchain 
-  algo: Quark
+  algo: NeoScrypt
   # Consensus method
   consensus: PoS
   # Maturity
-  maturity: 20 blocks
+  maturity: 76 blocks
   # Integrate a node maintained by the team for additional info. Configure by messaging panda-bot `$infonode`
   # You must be the admin of the project
   # Set to False to disable
