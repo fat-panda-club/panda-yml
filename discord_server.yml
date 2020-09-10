@@ -2,7 +2,7 @@
 panda-bot:
   discord:
     ### Do not set these if private server, otherwise will be used for searching
-    public_invite: https://discord.gg/Hs57Jg4
+    public_invite: https://discord.gg/wdCffQa
     # Select server type, valid options: project, community, trading. Contact us to add new categories
     type: project
     # Set if server allows rains for promotion of any panda-bot listed currency
@@ -11,10 +11,11 @@ panda-bot:
     description: Welcome all Crypto enthusiasts!
     ### Ignore up to here if private server
     # Default currency ticker to use, set to False to allow multiple currencies
-    default_currency: False
+    default_currency: MON
     # List of allowed currency tickers. Set default_currency to False and delete this section to use all available currencies
     ## This is ignored if default_currency is set
     allowed_currency:
+      - mon
       - boo
       - eth
     # List of the channels for panda-bot to respond to, by default will respond to all
